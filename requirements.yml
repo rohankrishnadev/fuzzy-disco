@@ -1,0 +1,5 @@
+---
+collections:
+  - name: robertdebock.roles
+  - name: devsec.hardening
+    version: 10.3.1
