@@ -1,6 +1,7 @@
 ---
 - name: Bootstrap host
-  hosts: 127.0.0.1
+  hosts: localhost
+  connection: local
   tasks:
     - name: Install roles and collections
       community.general.ansible_galaxy_install:
